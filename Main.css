@@ -5,11 +5,11 @@ header {
     background-color: #e4572e;
 }
 
-h1 {
+h1{
     font-family: "Chelsea Market", cursive;
 }
 h2 {
-    font-family: "Gamja Flower", cursive;
+    font-family:"Gamja Flower", cursive;
 }
 hr {
     margin-top: 20px;
@@ -17,19 +17,22 @@ hr {
 p {
     display: inline;
     margin-bottom: 20px;
-
 }
 main {
     font-family: "Gamja Flower", cursive;
     background-color: #fffff2;
 }
 article {
-    border: 4px solid #050401;
+    border: 2px solid #050401;
     box-shadow: 3px 3px 0 0 #e4572e;
-   margin:10px 70px 20px 300px;
-   padding: 10px 30px 30px 50px;
-   width: 50%;
-   line-height: 2;
+    margin:10px 70px 20px 300px;
+    padding:auto;
+    width: 50%;
+    line-height: 2;
+    text-align: left;
+}
+img{
+    float: right;
 }
 .bull{
     display: inline;
@@ -39,4 +42,10 @@ article {
 }
 .description{
   color: white;
+}
+.run{
+    height: 50px;
+}
+.stop{
+    height: 150px;
 }
